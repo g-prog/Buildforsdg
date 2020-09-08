@@ -1,0 +1,87 @@
+#logo{
+    height:13vh;
+    width:80%;
+    border-radius: 50%;
+}
+#pero{
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-image:url(images/green.jpg);
+    background-position: center;
+
+    
+}
+
+
+#pero::after{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity:0.3;
+    z-index: -1;
+}
+.col-4{
+    background-color: white;
+}
+.containers::after{
+    
+    background-color:black;
+    opacity:.1;
+    z-index: -1;
+
+}
+#next{
+    background-image: url('images/farmer.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+#fruit img{
+    width:150%;
+    height:100%;
+}
+*{
+    font-family:Agency FB;
+}
+
+.btn-warning{
+    background-color: green;
+    border:2px solid green;
+    color:white;
+}
+.btn-warning:hover{
+    background-color: lightgreen;
+}
+
+.container{
+    min-height: 100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+#hero{
+    background-image: url('images/farmer.jpg');
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+#hero::after{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity:.3;
+    z-index: -1;
+}
